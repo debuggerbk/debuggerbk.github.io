@@ -15,21 +15,7 @@
 <body>
     <audio src="debugger.m4a" id="wave"></audio>
     <center>
-        <input type="button" value="Böcek Ayıkla" id="debug"><br>
-        <input type="button" id="install-app" style="display: none" value="Uygulamayı Yükle"/>
-        <script>
-            const installButton = document.getElementById('install-app');
-            let beforeInstallPromptEvent
-            window.addEventListener("beforeinstallprompt", function(e) {
-                e.preventDefault();
-                beforeInstallPromptEvent = e
-                installButton.style.display = 'block'
-                installButton.addEventListener("click", function() {
-                    e.prompt();
-                });
-                installButton.hidden = false;
-            });
-        </script>
+        <input type="button" value="Böcek Ayıkla" id="debug">
         <div class="desc">
             Sevgili kullanıcılar,
 
