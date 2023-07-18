@@ -1,3 +1,8 @@
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js');
+    });
+}
 document.querySelector("#debug").addEventListener("click", function() {
     const wave = document.querySelector("#wave");
     if (wave.paused) {
