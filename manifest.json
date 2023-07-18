@@ -16,8 +16,8 @@
   ], 
   "icons": [
     {
-        "src": "",
-        "type": ""
+        "src": "favicon.svg",
+        "type": "image/x-icon"
     }
   ]
 }
