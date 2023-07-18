@@ -7,7 +7,6 @@ window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault();
     console.log('👍', 'beforeinstallprompt', event);
     window.deferredPrompt = event;
-    divInstall.classList.toggle('hidden', false);
 });
 document.querySelector("#debug").addEventListener("click", function() {
     const wave = document.querySelector("#wave");
