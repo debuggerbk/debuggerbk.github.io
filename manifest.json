@@ -1,0 +1,23 @@
+{
+ "background_color": "#000000",
+  "description": "Debugger: Mobil böcek savar",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Debugger",
+  "orientation": "portrait",
+  "scope": "debugger/",
+  "short_name": "Debugger: Mobil böcek savar",
+  "start_url": "/debugger/index.html",
+  "theme_color": "#9e479e",
+  "categories": [
+    "entertainment",
+    "personalization",
+    "social"
+  ], 
+  "icons": [
+    {
+        "src": "",
+        "type": ""
+    }
+  ]
+}
