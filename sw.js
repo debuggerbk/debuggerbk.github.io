@@ -1,3 +1,10 @@
+self.addEventListener('install', function () {
+  console.log('Install!');
+});
+self.addEventListener("activate", event => {
+  console.log('Activate!');
+});
+
 // This is the "Offline copy of pages" service worker
 
 const CACHE = "pwabuilder-offline";
