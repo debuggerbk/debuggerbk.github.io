@@ -2,7 +2,7 @@
   "background_color": "#000000",
   "description": "Debugger: Mobil böcek savar",
   "dir": "ltr",
-  "display": "minimal-ui",
+  "display": "standalone",
   "name": "Debugger",
   "orientation": "portrait",
   "scope": "debugger/",
