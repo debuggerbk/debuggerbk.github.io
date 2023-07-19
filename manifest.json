@@ -7,7 +7,7 @@
      "orientation": "portrait",
      "scope": "debugger/",
      "short_name": "Debugger: Mobil böcek savar",
-     "start_url": "/debugger/index.html",
+     "start_url": "/index.html",
      "theme_color": "#9e479e",
      "categories": [
        "medical"
