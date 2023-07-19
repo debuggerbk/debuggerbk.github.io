@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-        navigator.serviceWorker.register('sw.js?v=2');
+        navigator.serviceWorker.register('sw.js?v=6');
     });
 }
 window.addEventListener('beforeinstallprompt', (event) => {
