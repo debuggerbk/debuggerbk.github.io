@@ -19,7 +19,7 @@
            "purpose": "any"
        },
        {
-            "src": "favicon2.png",
+            "src": "favicon.svg",
             "type": "image/x-icon",
             "sizes": "512x512",
             "purpose": "maskable"
