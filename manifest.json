@@ -15,11 +15,14 @@
      "icons": [
        {
            "src": "favicon.svg",
-           "type": "image/x-icon"
+           "type": "image/x-icon",
+           "purpose": "any"
        },
        {
             "src": "favicon2.png",
-            "type": "image/x-icon"
+            "type": "image/x-icon",
+            "sizes": "512x512",
+            "purpose": "maskable"
        }
      ]
 }
