@@ -1,28 +1,29 @@
 {
-    "background_color": "#000000",
-     "description": "Debugger: Mobil böcek savar",
-     "dir": "ltr",
-     "display": "standalone",
-     "name": "Debugger",
-     "orientation": "portrait",
-     "scope": "debugger/",
-     "short_name": "Debugger: Mobil böcek savar",
-     "start_url": "/index.html",
-     "theme_color": "#9e479e",
-     "categories": [
-       "medical"
-     ], 
-     "icons": [
-       {
-           "src": "favicon.svg",
-           "type": "image/x-icon",
-           "purpose": "any"
-       },
-       {
-            "src": "favicon.png",
-            "type": "image/x-icon",
-            "sizes": "512x512",
-            "purpose": "maskable"
-       }
-     ]
+  "background_color": "#000000",
+  "description": "Debugger: Mobil böcek savar",
+  "dir": "ltr",
+  "display": "minimal-ui",
+  "name": "Debugger",
+  "orientation": "portrait",
+  "scope": "debugger/",
+  "short_name": "Debugger: Mobil böcek savar",
+  "start_url": "/index.html",
+  "theme_color": "#9e479e",
+  "categories": [
+    "medical"
+  ],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/x-icon",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "lang": "tr"
 }
